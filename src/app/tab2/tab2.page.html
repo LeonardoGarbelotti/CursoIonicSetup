@@ -1,0 +1,38 @@
+<ion-header>
+  
+  <ion-toolbar>
+    <ion-title>
+      Nossas Fotos
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<ion-content>
+    <ion-slides pager="true">
+
+        <ion-slide>
+          <ion-img src="assets/capa.jpg"></ion-img>
+        </ion-slide>
+    
+        <ion-slide>
+            <ion-img src="assets/quarto.jpg"></ion-img>
+        </ion-slide>
+    
+        <ion-slide>
+            <ion-img src="assets/piscina.jpg"></ion-img>
+        </ion-slide>
+      </ion-slides>
+      
+      <script>
+          var slides = document.querySelector('ion-slides');
+  
+          
+          slides.options = {
+            initialSlide: 1,
+            speed: 400
+          }
+        </script>
+      
+      
+</ion-content>
