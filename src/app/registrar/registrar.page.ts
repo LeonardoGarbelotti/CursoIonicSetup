@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { NavController, NavParams } from '@ionic/angular';
+import { Router } from '@angular/router';
 
 
 
@@ -8,10 +10,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./registrar.page.scss'],
 })
 export class RegistrarPage implements OnInit {
+  
 
-  constructor() { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
   }
 
+  
 }

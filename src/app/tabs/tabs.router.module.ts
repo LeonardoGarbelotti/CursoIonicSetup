@@ -39,7 +39,16 @@ const routes: Routes = [
         children: [
           {
             path: '',
-            loadChildren: './registrar/registrar.module#RegistrarPageModule'
+            loadChildren: '../registrar/registrar.module#RegistrarPageModule'
+          }
+        ]
+      },
+      {
+        path: 'tab5',
+        children: [
+          {
+            path: '',
+            loadChildren: '../camera/camera.module#CameraPageModule'
           }
         ]
       },
